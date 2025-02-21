@@ -43,25 +43,44 @@ flutter run
 
 
 📂 Proje Dizini Yapısı
+
 lib/
-main.dart          # Uygulamanın giriş noktası
-│
-│ data/              📌 Veriler ve Veri Katmanı
+
+│--main.dart          # Uygulamanın giriş noktası
+
+
+│--data/              📌 Veriler ve Veri Katmanı
+
 │   ├── entity/        # Veritabanı varlıkları (Entity)
+
 │   │   ├── yapilacaklar.dart  # Yapılacaklar veri modeli
+
 │   ├── repo/          # Veri erişim ve işleme (Repository)
+
 │   │   ├── yapilacaklardao_repository.dart  # Yapılacaklar için DAO (Data Access Object)
+
 │   ├── sqlite/        # SQLite ile ilgili işlemler (Eğer dosya varsa)
-        ├── veritabani_yardimcisi.dart  # Veri tabanına erişme
+
+│    │    ├── veritabani_yardimcisi.dart  # Veri tabanına erişme
+
 │
+
 │-- ui/                📌 Kullanıcı Arayüzü (UI)
+
 │   ├── cubit/         # BLoC Cubit dosyaları (Durum yönetimi)
+
 │   │   ├── anasayfacubit.dart   # Anasayfa Cubit
+
 │   │   ├── detaySayfaCubit.dart # Detay sayfası Cubit
+
 │   │   ├── kayitSayfaCubit.dart # Kayıt sayfası Cubit
+
 │   ├── views/         # Ekranlar (Views)
+
 │   │   ├── anasayfa.dart       # Anasayfa UI
+
 │   │   ├── detaySayfa.dart     # Detay sayfası UI
+
 │   │   ├── kayitSayfa.dart     # Kayıt sayfası UI
 
 
