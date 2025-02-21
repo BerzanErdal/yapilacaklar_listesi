@@ -42,12 +42,11 @@ flutter run
 
 
 
-📂 Proje Dizini Yapısı 
-plaintext
+📂 Proje Dizini Yapısı
 lib/
-│-- main.dart          # Uygulamanın giriş noktası
+main.dart          # Uygulamanın giriş noktası
 │
-│-- data/              📌 Veriler ve Veri Katmanı
+│ data/              📌 Veriler ve Veri Katmanı
 │   ├── entity/        # Veritabanı varlıkları (Entity)
 │   │   ├── yapilacaklar.dart  # Yapılacaklar veri modeli
 │   ├── repo/          # Veri erişim ve işleme (Repository)
