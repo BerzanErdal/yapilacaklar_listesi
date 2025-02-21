@@ -106,7 +106,8 @@ lib/
 
 📌 Ana Sayfa:
 
-![Ekran görüntüsü 2025-02-21 194519](https://github.com/user-attachments/assets/636e2103-d9a1-4e16-9fd4-a3515a14f1dd)    ![Ekran görüntüsü 2025-02-21 194601](https://github.com/user-attachments/assets/c87ad700-f8c4-40c3-a5d1-826e5fa02bba)    ![Ekran görüntüsü 2025-02-21 194623](https://github.com/user-attachments/assets/b9c271e8-9ddd-41e5-821d-efe11c76ec74) 
+![Ekran görüntüsü 2025-02-21 194519](https://github.com/user-attachments/assets/636e2103-d9a1-4e16-9fd4-a3515a14f1dd)    ![Ekran görüntüsü 2025-02-21 194601](https://github.com/user-attachments/assets/c87ad700-f8c4-40c3-a5d1-826e5fa02bba)    ![Ekran görüntüsü 2025-02-21 194623](https://github.com/user-attachments/assets/b9c271e8-9ddd-41e5-821d-efe11c76ec74)  ![image](https://github.com/user-attachments/assets/91072d8e-3b2f-461f-803e-b6cbb77ca902)
+
 
 
 
