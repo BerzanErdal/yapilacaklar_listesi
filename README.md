@@ -81,7 +81,8 @@ lib/
 
 📌 Ana Sayfa:
 
-![Ekran görüntüsü 2025-02-21 194519](https://github.com/user-attachments/assets/636e2103-d9a1-4e16-9fd4-a3515a14f1dd)
+![Ekran görüntüsü 2025-02-21 194519](https://github.com/user-attachments/assets/636e2103-d9a1-4e16-9fd4-a3515a14f1dd)  ![Ekran görüntüsü 2025-02-21 194601](https://github.com/user-attachments/assets/c87ad700-f8c4-40c3-a5d1-826e5fa02bba)
+
 
   
 📌 Görev Ekleme Ekranı:
