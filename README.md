@@ -1,16 +1,96 @@
-# yapilacaklarlistesi
+📌 Yapılacaklar Listesi Uygulaması 
 
-A new Flutter project.
+Bu uygulama, BLoC mimarisi kullanılarak geliştirilmiş, SQLite veritabanı ile çalışan kullanıcı dostu bir Yapılacaklar Listesi uygulamasıdır. Kullanıcılar, görevleri ekleyebilir, güncelleyebilir, silebilir, arayabilir ve sıralayabilir.  
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+🚀 Özellikler 
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+✅ Görev Ekleme: Yeni yapılacakları ekleyebilirsiniz.  
+✅ Görev Güncelleme: Mevcut görevleri düzenleyebilirsiniz.  
+✅ Görev Silme: İstemediğiniz ya da bitirdiğiniz görevleri silebilirsiniz.  
+✅ Görev Arama: Kayıtlı görevler arasında hızlıca arama yapabilirsiniz.  
+✅ SQLite Kullanımı: Veriler SQLite veritabanını kulanılarak saklanır.  
+✅ Bloc Mimarisi: Ekran ve iş mantığı ayrılmıştır, böylece kod daha düzenlidir.  
+✅ Kullanıcı Dostu Arayüz: Şık ve sade bir tasarım sunar.  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
+🛠 Kullanılan Teknolojiler  
+
+- Flutter – Mobil UI geliştirme  
+- Bloc (Business Logic Component) – Durum yönetimi  
+- SQLite – Veri saklama
+
+
+ 📲 Kurulum  
+
+1️⃣ Projeyi klonlayın:
+
+git clone https://github.com/BerzanErdal/yapilacaklar_listesi.git
+cd yapilacaklar_listesi
+
+
+2️⃣ Bağımlılıkları yükleyin:  
+
+flutter pub get
+
+3️⃣ Uygulamayı çalıştırın:  
+
+flutter run
+
+
+
+
+📂 Proje Dizini Yapısı 
+plaintext
+lib/
+│-- main.dart          # Uygulamanın giriş noktası
+│
+│-- data/              📌 Veriler ve Veri Katmanı
+│   ├── entity/        # Veritabanı varlıkları (Entity)
+│   │   ├── yapilacaklar.dart  # Yapılacaklar veri modeli
+│   ├── repo/          # Veri erişim ve işleme (Repository)
+│   │   ├── yapilacaklardao_repository.dart  # Yapılacaklar için DAO (Data Access Object)
+│   ├── sqlite/        # SQLite ile ilgili işlemler (Eğer dosya varsa)
+        ├── veritabani_yardimcisi.dart  # Veri tabanına erişme
+│
+│-- ui/                📌 Kullanıcı Arayüzü (UI)
+│   ├── cubit/         # BLoC Cubit dosyaları (Durum yönetimi)
+│   │   ├── anasayfacubit.dart   # Anasayfa Cubit
+│   │   ├── detaySayfaCubit.dart # Detay sayfası Cubit
+│   │   ├── kayitSayfaCubit.dart # Kayıt sayfası Cubit
+│   ├── views/         # Ekranlar (Views)
+│   │   ├── anasayfa.dart       # Anasayfa UI
+│   │   ├── detaySayfa.dart     # Detay sayfası UI
+│   │   ├── kayitSayfa.dart     # Kayıt sayfası UI
+
+
+
+
+🎯 Nasıl Kullanılır? 
+
+- Görev eklemek için "+" butonuna tıklayın.  
+- Görevleri düzenlemek için üzerine tıklayın.
+- Görevleri silmek için "X" butonuna tıklayın
+- Arama yapmak için arama butonunu kullanın.
+
+
+
+ 📸 Ekran Görüntüleri 
+
+📌 Ana Sayfa:
+
+![Ekran görüntüsü 2025-02-21 194519](https://github.com/user-attachments/assets/636e2103-d9a1-4e16-9fd4-a3515a14f1dd)
+
+  
+📌 Görev Ekleme Ekranı:
+
+
+
+
+📌 Görev Ekleme Ekranı: 
+
+
+
+
