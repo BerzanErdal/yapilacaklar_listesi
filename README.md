@@ -63,8 +63,6 @@ lib/
 
 │    │    ├── veritabani_yardimcisi.dart  # Veri tabanına erişme
 
-│
-
 │-- ui/                📌 Kullanıcı Arayüzü (UI)
 
 │   ├── cubit/         # BLoC Cubit dosyaları (Durum yönetimi)
