@@ -4,6 +4,7 @@ Bu uygulama, BLoC mimarisi kullanılarak geliştirilmiş, SQLite veritabanı ile
 
 
 
+
 🚀 Özellikler 
 
 ✅ Görev Ekleme: Yeni yapılacakları ekleyebilirsiniz.  
@@ -16,11 +17,13 @@ Bu uygulama, BLoC mimarisi kullanılarak geliştirilmiş, SQLite veritabanı ile
 
 
 
+
 🛠 Kullanılan Teknolojiler  
 
 - Flutter – Mobil UI geliştirme  
 - Bloc (Business Logic Component) – Durum yönetimi  
 - SQLite – Veri saklama
+
 
 
  📲 Kurulum  
@@ -42,44 +45,48 @@ flutter run
 
 
 
+
+
 📂 Proje Dizini Yapısı
 
 lib/
 
-│--main.dart          # Uygulamanın giriş noktası
+│-- main.dart          # Uygulamanın giriş noktası
 
 
-│--data/              📌 Veriler ve Veri Katmanı
+│-- data/              📌 Veriler ve Veri Katmanı
 
-│   ├── entity/        # Veritabanı varlıkları (Entity)
+│   ├──  entity/        # Veritabanı varlıkları (Entity)
 
-│   │   ├── yapilacaklar.dart  # Yapılacaklar veri modeli
+│   │   ├──   yapilacaklar.dart  # Yapılacaklar veri modeli
 
-│   ├── repo/          # Veri erişim ve işleme (Repository)
+│   ├──   repo/          # Veri erişim ve işleme (Repository)
 
-│   │   ├── yapilacaklardao_repository.dart  # Yapılacaklar için DAO (Data Access Object)
+│   │   ├──   yapilacaklardao_repository.dart  # Yapılacaklar için DAO (Data Access Object)
 
-│   ├── sqlite/        # SQLite ile ilgili işlemler (Eğer dosya varsa)
+│   ├──   sqlite/        # SQLite ile ilgili işlemler (Eğer dosya varsa)
 
-│    │    ├── veritabani_yardimcisi.dart  # Veri tabanına erişme
+│    │    ├──   veritabani_yardimcisi.dart  # Veri tabanına erişme
 
-│-- ui/                📌 Kullanıcı Arayüzü (UI)
+│--   ui/                📌 Kullanıcı Arayüzü (UI)
 
-│   ├── cubit/         # BLoC Cubit dosyaları (Durum yönetimi)
+│   ├──   cubit/         # BLoC Cubit dosyaları (Durum yönetimi)
 
-│   │   ├── anasayfacubit.dart   # Anasayfa Cubit
+│   │   ├──   anasayfacubit.dart   # Anasayfa Cubit
 
-│   │   ├── detaySayfaCubit.dart # Detay sayfası Cubit
+│   │   ├──   detaySayfaCubit.dart # Detay sayfası Cubit
 
-│   │   ├── kayitSayfaCubit.dart # Kayıt sayfası Cubit
+│   │   ├──   kayitSayfaCubit.dart # Kayıt sayfası Cubit
 
-│   ├── views/         # Ekranlar (Views)
+│   ├──   views/         # Ekranlar (Views)
 
-│   │   ├── anasayfa.dart       # Anasayfa UI
+│   │   ├──   anasayfa.dart       # Anasayfa UI
 
-│   │   ├── detaySayfa.dart     # Detay sayfası UI
+│   │   ├──   detaySayfa.dart     # Detay sayfası UI
 
-│   │   ├── kayitSayfa.dart     # Kayıt sayfası UI
+│   │   ├──   kayitSayfa.dart     # Kayıt sayfası UI
+
+
 
 
 
@@ -93,6 +100,8 @@ lib/
 
 
 
+
+
  📸 Ekran Görüntüleri 
 
 📌 Ana Sayfa:
@@ -102,13 +111,20 @@ lib/
 
 
 
+
+
   
 📌 Görev Güncelleme Ekranı:
+
+
 
 ![Ekran görüntüsü 2025-02-21 194652](https://github.com/user-attachments/assets/c6383d89-e758-44aa-8b8d-dfe736b40ca6)
 
 
+
 📌 Görev Ekleme Ekranı: 
+
+
 
 
 ![Ekran görüntüsü 2025-02-21 194731](https://github.com/user-attachments/assets/90c9a2b6-56da-4a9b-8df0-f275fbae9d8e)
